@@ -1,0 +1,8 @@
+{
+  "name": "html-and-css",
+  "private": true,
+  "scripts": {
+    "build:css": "sass --style=expanded --no-source-map index.scss:styles/index.css && stylelint --config ../../../stylelint.config.mjs styles/index.css --fix",
+    "dev": "npm run build:css && onchange index.scss -- npm run build:css"
+  }
+}

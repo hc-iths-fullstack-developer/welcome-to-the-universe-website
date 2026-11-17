@@ -1,1 +1,16 @@
+# Dependencies
 node_modules/
+
+# Generated files
+*.log
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
